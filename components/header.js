@@ -10,7 +10,7 @@ export default function Header(title) {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <nav className = "container flex justify-between px-4 py-8 mx-auto bg-white">
-            <Link href="/">
+            <Link href="/" passHref>
                 <GiFeather className = "text-4xl cursor-pointer"/>          
             </Link>
             
