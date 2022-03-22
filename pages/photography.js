@@ -7,7 +7,7 @@ import getImages from '../components/gallery'
 
 export default function Photography(props) {
   return (
-    <div className = "h-screen">
+    <div className = "flex flex-col min-h-screen">
       <Header/>
       <div className = "grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 xl:container xl:mx-auto items-center">
           <>

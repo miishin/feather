@@ -6,16 +6,16 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div className="flex flex-col min-h-screen">
       <Header/>
-      <div className="h-1/3 bg-photo-header bg-center bg-cover sm:container sm:mx-auto flex items-center justify-center">
+      <div className="max-h-1/3 bg-photo-header bg-center bg-cover sm:container sm:mx-auto flex flex-grow items-center justify-center">
         <div className="bg-blue-200 hover:bg-blue-300 text-black font-bold py-2 px-3 rounded-full">
           <Link href="/photography">
             Photography
           </Link>
         </div>
       </div>
-      <div className="h-1/3 bg-photo-header bg-center bg-cover sm:container sm:mx-auto flex items-center justify-center">
+      <div className="max-h-1/3 bg-photo-header bg-center bg-cover sm:container sm:mx-auto flex flex-grow items-center justify-center">
         <div className="bg-blue-200 hover:bg-blue-300 text-black text-xl font-bold py-2 px-3 rounded-full">
           <Link href="/art">
             Artwork
