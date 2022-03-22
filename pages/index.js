@@ -4,8 +4,6 @@ import Link from 'next/link'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-import photoHeader from '../img/headers/photos.jpeg'
-
 export default function Home() {
   return (
     <div className="h-screen">
