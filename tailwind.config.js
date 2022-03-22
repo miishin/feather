@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'photo-header': "url('../public/photos.jpeg')",
+        'photo-header': "url('../public/photo-header.jpg')",
+        'art-header': "url('../public/art-header.jpg')",
       }
     },
     container: {
