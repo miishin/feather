@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useState } from "react";
 import { BsJustify } from 'react-icons/bs';
 import { BsX } from 'react-icons/bs';
-import { BsFillGridFill } from 'react-icons/bs';
+import { GiFeather } from 'react-icons/gi';
 
 // https://medium.com/@designbygio/hamburger-menu-with-react-and-tailwind-css-7ddd8c90a082
 
@@ -11,9 +11,9 @@ export default function Header(title) {
     return (
         <nav className = "container flex justify-between px-4 py-8 mx-auto bg-white">
             <Link href="/">
-                <BsFillGridFill className = "text-4xl"/>            
+                <GiFeather className = "text-4xl cursor-pointer"/>          
             </Link>
-
+            
             <div className = "flex lg:hidden">
                 <div className = "space-y-2" onClick = {() => setMenuOpen((prev) => !prev)}>
                     <BsJustify className = "text-4xl"/>

@@ -16,9 +16,9 @@ export default function Home() {
         </div>
       </div>
       <div className="h-1/3 bg-photo-header bg-center bg-cover sm:container sm:mx-auto flex items-center justify-center">
-        <div className="bg-blue-200 hover:bg-blue-300 text-black text-xl font-bold py-3 px-6 rounded-full">
+        <div className="bg-blue-200 hover:bg-blue-300 text-black text-xl font-bold py-2 px-3 rounded-full">
           <Link href="/art">
-            Art
+            Artwork
           </Link>
         </div>
       </div>
