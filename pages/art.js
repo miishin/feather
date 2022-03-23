@@ -1,6 +1,6 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
-import getImages from '../components/gallery'
+import getImages from '../components/cloudinary'
 /* eslint-disable @next/next/no-img-element */
 
 export default function Art(props) {
