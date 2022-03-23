@@ -20,8 +20,10 @@ export default function Header(title) {
                 </div>
 
                 <div className = {menuOpen ? "showMenu" : "hideMenu"}>
-
                     <ul className = "flex flex-col items-center justify-between min-h-[250px]">
+                        <li className = "border-b border-gray-400 my-8 lowercase">
+                            <Link href = "/">Home</Link>
+                        </li>
                         <li className = "border-b border-gray-400 my-8 lowercase">
                             <Link href = "/photography">Photography</Link>
                         </li>
