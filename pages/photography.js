@@ -21,10 +21,8 @@ export default function Photography(props) {
 }
 
 export async function getStaticProps() {
-  const params = {
-    expression: 'folder="photography"'
-  }
-  const resources  = await getImages(params)
+  const folderName = encodeURIComponent("folder=photography")
+  const resources  = await getImages(folderName)
   return {
     props: {
         resources
